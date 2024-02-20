@@ -1,0 +1,16 @@
+# Setting up
+
+Text animations at its core is just some GSAP animations paired with small plugins and sometimes even solely.
+
+We will install 'gsap' and '@gsap/react' as our core libraries for using these animation on react or react based frameworks.
+
+```term copy
+npm i gsap @gsap/react
+```
+
+In the latest version of GSAP, we don't need to do manual cleanup of animations, the new react hook 'useGSAP' handles all contexting and cleanup functions for us.
+
+```js copy
+import gsap from 'gsap'
+import { useGSAP } from '@gsap/react';
+```

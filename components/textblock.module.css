@@ -1,0 +1,19 @@
+.textBlock {
+    overflow: hidden;
+    margin-top: 18px;
+    border: 1px solid #fff2;
+    border-radius: 10px;
+}
+
+.animText {
+    font-size: 20px;
+    padding: 40px 20px;
+}
+
+.replayButton {
+    width: fit-content;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #47f;
+    cursor: pointer;
+}

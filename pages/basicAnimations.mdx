@@ -1,0 +1,19 @@
+import GsapAnim1 from "../components/GsapAnim1";
+import TextBlock from "../components/TextBlock";
+
+# Basic animations
+
+## Simple fade pop
+
+<TextBlock text_class={"text1"} />
+<GsapAnim1 text_class={"text1"} />
+
+### Code
+
+```js filename="demo.js" copy
+gsap.fromTo(
+  ".text_class",
+  { y: "100px", opacity: 0 },
+  { opacity: 1, y: 0, repeat: -1, repeatDelay: 2 }
+);
+```
